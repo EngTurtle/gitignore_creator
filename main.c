@@ -58,8 +58,10 @@ main (int argc, char *argv[])
                     fprintf(ignore, "\n");
                 }
             }
+            free(eps[cnt]);
         }
 
     }
+    fclose(ignore);
     return 0;
 }
