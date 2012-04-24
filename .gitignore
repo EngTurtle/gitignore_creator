@@ -1,0 +1,6 @@
+.git/*
+bin/*
+obj/*
+print_dir
+print_dir.cbp
+print_dir.depend
